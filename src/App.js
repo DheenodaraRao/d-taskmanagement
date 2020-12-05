@@ -1,12 +1,17 @@
+
 import './App.css';
-import ButtonAppBar from './components/appBar/appbar';
+import Login from './components/login/Login';
+
+
 
 function App() {
+
+  
   return (
-    <div className="App">
-      <ButtonAppBar 
-        name={"Dheeno"}
-      />
+    <div>
+
+      <Login />
+      
     </div>
   );
 }
